@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h2{
+    display: flex;
+    max-width: 80px;
+    text-align: end;  align-items: center;
+}
+
+.numbers-containers{
+    display: flex;
+    margin-top: 32px;
+    gap: 46px;
+    justify-content: center;
+   color:#edcbef;
+}
+
+.numbers-item{
+    background-color: #953CD6;
+    min-width: 75px;
+    height: 75px;
+    color: aliceblue;
+    font-size: 2rem;
+    display: grid;
+    place-content: center;
+}
